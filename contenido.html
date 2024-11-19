@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <section>
+    <ul>
+    <li>
+      <a href="index.html">Inicio</a>
+    </li>
+    <li>
+      <a href="contenido.html">Contenido</a>
+    </li>
+    <li>
+      <a href="contacto.html">Contacto</a>
+    </li>
+  </ul>
+</section>
+<h1>
+  Contenido
+</h1>
+  <section>
+  <form action="index.html" method="get">
+    
+    <!-- ☺ checkbox → genera un cajita para marcar en caso afirmativo a la pregunta -->
+    <div>
+      <label for="revisar">Aceptar términos</label>
+      <input type="checkbox" id="revisar">
+    </div>
+
+    <!-- ☺ color → para crear un campo de selección de colores -->
+    <div>
+      <label for="color">Color</label>
+      <input type="color">
+    </div>
+
+    <!-- ☺ date → para crear un campo de selección de fecha -->
+    <div>
+      <label for="date">Date</label>
+      <input type="date" id="date">
+    </div>
+
+    <!-- ☺ datetime → para crear un campo donde se ingresa fecha y hora -->
+    <div>
+      <label for="datetime">Fecha y hora</label>
+      <input type="datetime">
+    </div>
+
+    <!-- ☺ datetime-local → para crear un campo donde se ingresa fecha y hora -->
+    <div>
+      <label for="hora_y_fecha_local">Hora y fecha local</label>
+      <input type="datetime-local" id="">
+    </div>
+
+    <!-- ☺ Email → genera un campo para ingresar correo -->
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="">
+    </div>
+
+    <!-- 
+    ☺ number → Este input sirve para ingresar números en el formulario
+    ☺ name → permite a un scrip acceder a su contenido 
+    ☺ min → se define el valor mínimo váido para un elemento de entrada y con max se limita el valor máximo de un campo numérico en un formulario
+    ☺ step → cambiar el incremento y decremento causado por los botones deslizadores
+    ☺ id → Para dar formato
+    ☺ required → es usado para indicar al usuario que un input es requerido en un elemento antes de que un from pueda ser enviado  
+    -->
+    
+    <div>
+     <label for="edad">Edad</label>
+     <input type="number" id="edad" name="nombre" min="0" max="10" step="0.5" required>
+    </div>
+    
+    <div>
+      <label for=""></label>
+      <input type="">
+    </div>
+        
+    <div>
+      <label for="contrasena">Contraseña</label>
+      <input type="password" id="contrasena" placeholder="X$5-kdonjc">
+    </div>
+    
+    <div>
+      <label for="correo">Correo</label>
+      <input type="text" id="correo">
+    </div>
+    
+    <div>
+      <label for="hora">Hora</label>
+      <input type="time">
+    </div>
+        
+    <div>
+      <label for=""></label>
+      <input type="" id="">
+    </div>
+    
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+</body>
+</html>
